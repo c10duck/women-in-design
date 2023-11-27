@@ -1,0 +1,113 @@
+body {
+    background: #f7f7f7;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+article, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+img{
+    display: block;
+    padding: 0;
+    max-width: 100%;    
+}
+
+/*---- Styling typography ---*/
+h1, h2 {
+    color: #91751a;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+p, blockquote{
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+h1{
+    font-size:5.063rem;
+    color: #4d3f0f;
+    font-weight: light;
+    margin: 2rem 0 1rem 0;
+}
+
+h2{
+    font-size:2.25rem;
+    margin: 3rem 0 1rem 0;
+}
+
+blockquote{
+    font-size: 1.75rem;
+    font-style: italic;
+    margin: 0;
+    hanging-punctuation: [first];
+    text-indent: -0.9rem;
+}
+
+header p{
+    font-size: 2rem ;
+    margin-bottom: 4rem;
+    font-style: oblique;
+}   
+
+/*-- Styling links---*/
+a{
+    color: #91751a;
+    text-decoration: none;
+}
+
+a:hover{
+    color:azure;
+}
+
+/*---style nav---*/
+
+nav{
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background:#4d3f0f;
+    padding: 2rem 0;
+    font-size: 1rem;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link{
+    color:  
+}
+
+nav a:hover{
+    transition: all 0.5s ease-in-out;
+}
+
+footer{
+    background:#4d3f0f;
+}
+
+footer p{
+    margin: 0.9rem;
+    color:#91751a;
+    text-align: center;
+}
+
+footer a{
+    letter-spacing: 1px;
+    margin-bottom: 0.5;
+}
