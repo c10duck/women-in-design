@@ -1,0 +1,163 @@
+body {
+    background: #f7f7f7;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+article, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+img{
+    display: block;
+    padding: 0;
+    max-width: 100%;    
+}
+
+/*---- Styling typography ---*/
+h1, h2 {
+    color: #91751a;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+p, blockquote{
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+h1{
+    font-size:4rem;
+    color: #4d3f0f;
+    font-weight: light;
+    margin: 2rem 0 1rem 0;
+    text-align:left;
+}
+
+h2{
+    font-size:2.25rem;
+    margin: 3rem 0 1rem 0;
+}
+
+blockquote{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0 15rem 0 15rem;
+    hanging-punctuation: [first];
+    text-indent: -0.9rem;
+}
+
+article ul li{
+    margin-bottom: .75rem;
+}
+
+header p{
+    font-size: 1.5rem ;
+    margin-bottom: 4rem;
+    font-style: oblique;
+    text-align: left;
+}   
+
+/*-- Styling links---*/
+a{
+    color: #91751a;
+    text-decoration: none;
+}
+
+a:hover{
+    color:azure;
+}
+
+/*---style nav---*/
+nav p{
+    font-size: 1.5rem;
+    color: #91751a;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background:#4d3f0f;
+    padding: 2rem 0;
+    font-size: 1rem;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+.dropcap{
+    font-family:'Great Vibes', cursive;
+    float:left;
+    line-height: 30%;
+    width: 3.7rem;
+    font-size: 400%;
+    color:#91751a;
+    margin-top: 1rem;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+
+
+nav a:hover{
+    transition: all 0.5s ease-in-out;
+}
+
+footer{
+    background:#4d3f0f;
+    padding: 1rem 0 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p{
+    margin: 0.9rem;
+    color:#91751a;
+    text-align: center;
+}
+
+footer a{
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;}
+.connections ul{
+    margin: 0;
+    padding: 0;}
+.connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  }
+.connections a:link{
+        border-bottom: none;       }
+.connections img, .connections svg{
+    border: none;}
+.connections a:hover img, .connections a:hover svg{
+    border-bottom: none;}
+ .connections svg {
+    margin: 2rem auto;}
+.connections a:hover svg path {
+    fill: #333;
+    transition: all 0.2s ease-in-out;}
+footer .connections a:hover svg path {
+    fill:  #C2C2C2;
+    transition: all 0.2s ease-in-out;}
+
+    footer ul{
+        position: center;
+    }
